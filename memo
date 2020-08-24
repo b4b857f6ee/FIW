@@ -2,3 +2,19 @@ Reminder :
 
 Border ISP routeur Iptables rules:
 - iptables -t nat -A PREROUTING -i eth0 -p all \! 3.3.3.3 -j DNAT --to 2.2.2.2 -m comment --comment main
+
+
+name	IP	company	GEO
+a.root-servers.net	198.41.0.4	Verisign, Inc.	US
+b.root-servers.net	199.9.14.201	University of Southern California,	US
+c.root-servers.net	192.33.4.12	Cogent Communications	US
+d.root-servers.net	199.7.91.13	University of Maryland	US
+e.root-servers.net	192.203.230.10	NASA (Ames Research Center)	US
+f.root-servers.net	192.5.5.241	Internet Systems Consortium, Inc.	US
+g.root-servers.net	192.112.36.4	US Department of Defense (NIC)	US
+h.root-servers.net	198.97.190.53	US Army (Research Lab)	US
+i.root-servers.net	192.36.148.17	Netnod	sweden
+j.root-servers.net	192.58.128.30	Verisign, Inc.	US
+k.root-servers.net	193.0.14.129	RIPE NCC	netherland
+l.root-servers.net	199.7.83.42	ICANN	US
+m.root-servers.net	202.12.27.33	WIDE Project	Japan
