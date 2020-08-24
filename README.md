@@ -4,3 +4,19 @@ FIW stand for Full Internet WorldWide. The goadl of this project is to recreate 
 This is how it's look like
 
 ![alt text](https://github.com/b4b857f6ee/FIW/blob/master/pictures/Dessin1.png)
+
+# Technologies
+- Docker
+- Alpine
+- Inetsim
+- Named
+- Nginx
+- Vyos
+
+IP source by country :
+- France : https://www.nirsoft.net/countryip/fr.html
+- Netherlands : https://www.nirsoft.net/countryip/nl.html
+- Japan : https://www.nirsoft.net/countryip/jp.html
+- Sweden : https://www.nirsoft.net/countryip/se.html
+- US : https://www.nirsoft.net/countryip/us.html
+
