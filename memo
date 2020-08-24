@@ -2,6 +2,7 @@ Reminder :
 
 Border ISP routeur Iptables rules:
 - iptables -t nat -A PREROUTING -i eth0 -p all \! 3.3.3.3 -j DNAT --to 2.2.2.2 -m comment --comment main
+- iptables -t nat -A PREROUTING -i eth0 -p all -j DNAT --to 2.2.2.2 -m comment --comment LastPretouringRules
 
 
 name	IP	company	GEO
