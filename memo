@@ -19,3 +19,18 @@ j.root-servers.net	192.58.128.30	Verisign, Inc.	US
 k.root-servers.net	193.0.14.129	RIPE NCC	netherland
 l.root-servers.net	199.7.83.42	ICANN	US
 m.root-servers.net	202.12.27.33	WIDE Project	Japan
+
+
+Vyos Command to NAT all to inetsim backend
+
+###Backend Inetsim
+set nat destination rule 10 destination address 5.158.240.0/20
+set nat destination rule 10 inbound-interface 'eth2'
+set nat destination rule 10 protocol all
+set nat destination rule 10 translation address 5.158.240.2
+commit
+
+###NAT Vyos
+set nat source rule 10 outbound-interface 'eth1'
+set nat source rule 10 source address '192.168.1.0/24'
+set nat source rule 10 translation address 'masquerade'
