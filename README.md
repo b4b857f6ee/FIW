@@ -3,6 +3,7 @@ FIW stand for Full Internet WorldWide. The goal of this project is to recreate i
 
 This is how it's look like
 
+![alt text](https://github.com/b4b857f6ee/FIW/blob/master/pictures/Dessin1.png)
  
 # Technologies
 - Docker
