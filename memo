@@ -34,3 +34,6 @@ commit
 set nat source rule 10 outbound-interface 'eth1'
 set nat source rule 10 source address '192.168.1.0/24'
 set nat source rule 10 translation address 'masquerade'
+
+
+http://www.davidc.net/sites/default/subnets/subnets.html
